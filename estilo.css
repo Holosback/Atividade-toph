@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+}
+
+
+
+header{
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 10px;
+    color:beige;
+    
+}
+nav {
+    
+    
+    position: sticky;
+    top: 0;
+     display: flex;
+     list-style-type: none;
+     margin: 5px;
+     padding: 5px;
+     background-color: bisque;
+     justify-content: center;
+}
+nav li{
+    text-align: center;
+    padding: 20px;
+}
+link.nav li a {
+    text-align: center;
+    display: block;
+    color: gold;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: beige;
+}
+link.nav li a:hover{
+    background-color: darkseagreen;
+    color: white;
+}
+link.nav li a:active{
+    background-color: darkseagreen;
+}
+.link-menu{
+    text-decoration: none;
+    color: darkseagreen;
+    padding: 20px 20px;
+}
+.link-menu:hover {
+    background-color: darkseagreen;
+    color: beige;
+}
