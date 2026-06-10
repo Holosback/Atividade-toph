@@ -1,7 +1,13 @@
+
 body {
     background-color: beige;
+    text-align: center;
+    
 }
-
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
 
 
 header{
@@ -34,10 +40,12 @@ link.nav li a {
     padding: 20px 20px;
     text-decoration: none;
     background-color: beige;
+    transition: width 2s;
 }
 link.nav li a:hover{
     background-color: darkseagreen;
     color: white;
+    width: 25px;
 }
 link.nav li a:active{
     background-color: darkseagreen;
@@ -46,8 +54,21 @@ link.nav li a:active{
     text-decoration: none;
     color: darkseagreen;
     padding: 20px 20px;
+    transition: background-color 1s;
 }
 .link-menu:hover {
     background-color: darkseagreen;
     color: beige;
+    
+}
+h2{
+    color: darkseagreen;
+}
+.img-txt{
+    float: left;
+    text-align: left;
+}
+.pp{
+    font-size: larger;
+    text-align: left;
 }
