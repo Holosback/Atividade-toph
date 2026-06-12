@@ -64,11 +64,17 @@ link.nav li a:active{
 h2{
     color: darkseagreen;
 }
-.img-txt{
-    float: left;
-    text-align: left;
+.flex {
+display: flex;
+text-align: left;
+color: beige;
+background-color: darkseagreen;
+border-radius: 8px;
+font-size: 25px;
+gap: 10px;
 }
-.pp{
-    font-size: larger;
-    text-align: left;
+.flex-img{
+width: 100px;
+height: 30px;
 }
+
