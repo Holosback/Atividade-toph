@@ -1,9 +1,14 @@
 
 body {
-    background-color: beige;
+   background-image: url('https://i.pinimg.com/1200x/01/e2/b1/01e2b168140127f354bec6f1f106d350.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: center; 
+    color:beige;
     text-align: center;
     
 }
+
 img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 25px;
