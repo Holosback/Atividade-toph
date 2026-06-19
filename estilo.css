@@ -18,11 +18,19 @@ img{
 
 
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: darkseagreen;
     text-align: center;
     padding: 10px;
     color:beige;
     
+}
+header img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
 nav {
     
@@ -162,4 +170,18 @@ height: 350px;
     white-space: normal;
     overflow: break-word;
     word-break: break-word;
+}
+footer{
+    
+    font-size: 15px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color:beige;
+    margin-top: 20px;
+}
+footer img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
